@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 
 /*VIDEO----------------------------*/
@@ -29,38 +30,66 @@ video {
 /*-----------------------------------*/
 /*--seccion inicio---------------------------------*/
 /*-----------------------------------*/
+
 #titulo_inicio{
     color: white;
     font-family: 'Julius Sans One', sans-serif;
     scale: 120%;
     margin-top: 15%;
-    margin-left: 10%;
+    margin-left: 12%;
     
 }
 
+#img_inicio{
+    margin-right: 12%;
+    margin-top: 4%;
+}
 
 /*-----------------------------------*/
 /*-----------------------------------*/
 /*-----------------------------------*/
 
 /*-----------------------------------*/
+/*-----SECCION PRESENTACION------------------------------*/
+/*-----------------------------------*/
+#tarj_presentacion{
+    background-color: #07294F;
+    color: white;
+    margin-top: 15%;
+    padding: 5%;
+    
+}
+
+#parraf_presentacion{
+    margin-top: 15%;
+    margin-left: 8%;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#img_presentacion{
+    margin-top: 3%;
+}
 /*-----------------------------------*/
 /*-----------------------------------*/
+/*-----------------------------------*/
+
 
 /*-----------------------------------*/
 /*-----------------------------------*/
 /*-----------------------------------*/
+#tarj_recordatorio2{
+    
+    background-color: #75AFFD;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 8%;
+}
 
-
 /*-----------------------------------*/
 /*-----------------------------------*/
 /*-----------------------------------*/
-
-
-/*-----------------------------------*/
-/*-----------------------------------*/
-/*-----------------------------------*/
-
+#img_cobroPorHora{
+    scale: 30%;
+}
 /*-----------------------------------*/
 /*-----------------------------------*/
 /*-----------------------------------*/
