@@ -135,51 +135,75 @@
 <!-------------------------------------->
 <!-------------------------------------->
 
+
 <section class="container-fluid text-center" id="tarj_cobroPorHora">
-  <div>
-    <div id="img_cobroPorHora">
-      <img src="img/fondo/pexels-mikhail-nilov-8297031.jpg" alt="">
-    </div>
+  
+  <div class="row" id="fondo_cobroPorHora">
 
+      <div class="col" id="explic_cobroPorHora"> 
 
-    <div id="titulo_cobroPorHora">
-      <h2>¿Cuanto cobro por hora?</h2>
-    </div>
-
-
-    <div id="label_ingreso_cobroPorHora">
-
-      <div class="mb-3 row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Ingrese su Salario Neto $ </label>
-        <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword">
-        </div>
+          <img class=".img-fluid" src="img/vectores/icons8-últimas-24-horas-64.png" alt="reloj" id="img_explicacion_cobroPorHora">
+          <h5 id="titulo_explic_cobroPorHora">Cuando el trabajador preste servicios en horas suplementarias, es decir, cuando supere la jornada legal, que no puede ser superior a las 9 horas diarias ni a las 48 horas semanales, la remuneración tendrá un recargo del 50% por cada hora en días comunes y del 100% en días sábados después de las 13 hs.</h5>
       </div>
 
-    </div>
+      <div class="col" id="secc_cobroPorHora_backgr">
+      
+        <div id="titulo_cobroPorHora">
+          <h2>¿Cuanto cobro por hora?</h2>
+        </div>
 
-    <div id="resultado_cobroPorHora">
-      <div class="mb-3 row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-        <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword">
+
+        <div id="label_ingreso_cobroPorHora">
+
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label">Ingrese su Salario Neto $ </label>
+            
+            <div class="col-sm-8">
+              <input type="password" class="form-control" id="inputPassword">
+            </div>
+          </div>
+
+        </div>
+
+        <div id="resultado_cobroPorHora">
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label" id="total_hora">Por hora gana: $</label>
+            
+            <div class="col-sm-8">
+
+              <input type="text" class="form-control" id="resultado_hora" aria-describedby="basic-addon3 basic-addon4" readonly>
+
+            </div>
+
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label" id="total_horaextra50">Por hora extra 50%: $</label>
+            <div class="col-sm-8">
+
+              <input type="text" class="form-control" id="resultado_horaExtra50" aria-describedby="basic-addon3 basic-addon4" readonly>
+
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-4 col-form-label" id="total_horaExtra100">Por hora extra 100%: $</label>
+            <div class="col-sm-8">
+
+              <input type="text" class="form-control" id="resultado_horaExtra100" aria-describedby="basic-addon3 basic-addon4" readonly>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="text-center" id="button_resultado_horasExtras">
+
+            <button type="button" onclick="" class="btn btn-success" >Calcular</button>
+        </div>
         </div>
       </div>
-      <div class="mb-3 row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-        <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword">
-        </div>
-      </div>
-      <div class="mb-3 row">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-        <div class="col-sm-10">
-          <input type="password" class="form-control" id="inputPassword">
-        </div>
-      </div>
-    </div>
-  </div>
+    </div>  
 </section>
+
+
 
 <!-------------------------------------->
 <!-------------------------------------->

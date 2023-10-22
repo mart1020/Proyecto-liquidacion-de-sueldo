@@ -75,21 +75,53 @@ video {
 
 
 /*-----------------------------------*/
-/*-----------------------------------*/
+/*-----SECCION RECORDATORIO------------------------------*/
 /*-----------------------------------*/
 #tarj_recordatorio2{
     
     background-color: #75AFFD;
     font-family: 'Julius Sans One', sans-serif;
     padding: 8%;
+    
 }
 
+
 /*-----------------------------------*/
+/*----SECCION CBRO POR HORA-------------------------------*/
 /*-----------------------------------*/
-/*-----------------------------------*/
-#img_cobroPorHora{
-    scale: 30%;
+
+
+#tarj_cobroPorHora{
+
+  color: white;  
+  background-image:url(https://cdn.pixabay.com/photo/2017/09/26/16/14/savings-2789153_1280.jpg);
+  padding: 7%;
+  
+
 }
+#fondo_cobroPorHora{
+    background-color: #07294f9b;
+    padding: 7%;
+    margin: -8.3%;
+}
+
+#explic_cobroPorHora{
+
+    margin-right: 10px;
+}
+
+#titulo_explic_cobroPorHora{
+    margin-top: 50px;
+}
+
+#label_ingreso_cobroPorHora{
+
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+
 /*-----------------------------------*/
 /*-----------------------------------*/
 /*-----------------------------------*/
