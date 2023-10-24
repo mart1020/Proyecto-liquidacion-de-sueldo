@@ -16,6 +16,10 @@ video {
 /*-----------------------------------*/
 /*---NAVEGADOR--------------------------------*/
 /*-----------------------------------*/
+#nav_confondo{
+    background-color: #07294F;
+
+}
 
 #nav_seleccionar{
 
@@ -121,6 +125,187 @@ video {
 
 }
 
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*-----TARJETA VACACIONES------------------------------*/
+/*-----------------------------------*/
+#tarj_vacaciones{
+
+    color: white; 
+    background-image:url(https://cdn.pixabay.com/photo/2015/11/15/09/21/calculator-1044172_1280.jpg);
+    padding: 7%;
+    
+  
+  }
+  #fondo_vacaciones{
+      background-color: #5e95dda7;
+      padding: 7%;
+      margin: -8.3%;
+  }
+  
+  #explic_vacaciones{
+  
+      margin-left: 30px;
+  }
+  
+  #titulo_explic_vacaciones{
+      margin-top: 50px;
+  }
+  
+  #resultado_cobroPorHora{
+    padding: 10px;
+  }
+  
+  
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+#tarj_antiguedad{
+
+    color: white; 
+    background-image:url(https://cdn.pixabay.com/photo/2016/02/20/18/29/watch-1212557_1280.jpg);
+    padding: 7%;
+    
+  
+  }
+  #fondo_antiguedad{
+      background-color: #07294f9b;
+      padding: 7%;
+      margin: -8.3%;
+  }
+  
+  #explic_antiguedad{
+  
+      margin-left: 30px;
+  }
+  
+  #titulo_explic_antiguedad{
+      margin-top: 50px;
+  }
+  
+  #resultado_antiguedad{
+    padding: 10px;
+  }
+  
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+#tarj_feriado{
+
+    color: white; 
+    background-image:url(https://cdn.pixabay.com/photo/2014/05/05/19/53/keyboard-338502_1280.jpg);
+    padding: 7%;
+    
+  
+  }
+  #fondo_feriado{
+      background-color: #5e95dda7;
+      padding: 7%;
+      margin: -8.3%;
+  }
+  
+  #explic_feriado{
+  
+      margin-left: 30px;
+  }
+  
+  #titulo_explic_feriado{
+      margin-top: 50px;
+  }
+  
+  #resultado_feriado{
+    padding: 10px;
+  }
+  
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+#tarj_sac{
+
+    color: white; 
+    background-image:url(https://cdn.pixabay.com/photo/2018/03/20/09/53/nature-3242686_1280.jpg);
+    padding: 7%;
+    
+  
+  }
+  #fondo_sac{
+      background-color: #07294f9b;
+      padding: 7%;
+      margin: -8.3%;
+  }
+  
+  #explic_sac{
+  
+      margin-left: 30px;
+  }
+  
+  #titulo_explic_sac{
+      margin-top: 50px;
+  }
+  
+  #resultado_sac{
+    padding: 10px;
+  }
+  
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
+#footer{
+    
+    background-color: #082b53;
+    color: white;
+    padding: 60px;
+
+}
+
+#explic_footer{
+    margin: 10px;
+}
+
+#img_explic{
+    margin-top: 30px;
+}
+
+#img_footer{
+
+    margin-top: 50px;
+    
+    :hover{
+        scale: 110%;
+        opacity: 50%;
+    }
+}
+
+#titulo_footer{
+    margin: 10px;
+}
+/*-----------------------------------*/
+/*-----------------------------------*/
+/*-----------------------------------*/
 
 /*-----------------------------------*/
 /*-----------------------------------*/
