@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
 
 /*VIDEO----------------------------*/
 video {
@@ -100,6 +100,7 @@ video {
   color: white;  
   background-image:url(https://cdn.pixabay.com/photo/2017/09/26/16/14/savings-2789153_1280.jpg);
   padding: 7%;
+  font-family: 'Inclusive Sans', sans-serif;
   
 
 }
@@ -138,6 +139,7 @@ video {
     color: white; 
     background-image:url(https://cdn.pixabay.com/photo/2015/11/15/09/21/calculator-1044172_1280.jpg);
     padding: 7%;
+    font-family: 'Inclusive Sans', sans-serif;
     
   
   }
@@ -167,13 +169,14 @@ video {
 /*-----------------------------------*/
 
 /*-----------------------------------*/
-/*-----------------------------------*/
+/*----TARJETA ANTIGUEDAD-------------------------------*/
 /*-----------------------------------*/
 #tarj_antiguedad{
 
     color: white; 
     background-image:url(https://cdn.pixabay.com/photo/2016/02/20/18/29/watch-1212557_1280.jpg);
     padding: 7%;
+    font-family: 'Inclusive Sans', sans-serif;
     
   
   }
@@ -202,13 +205,14 @@ video {
 
 
 /*-----------------------------------*/
-/*-----------------------------------*/
+/*------TARJETA FERIADO-----------------------------*/
 /*-----------------------------------*/
 #tarj_feriado{
 
     color: white; 
     background-image:url(https://cdn.pixabay.com/photo/2014/05/05/19/53/keyboard-338502_1280.jpg);
     padding: 7%;
+    font-family: 'Inclusive Sans', sans-serif;
     
   
   }
@@ -238,13 +242,14 @@ video {
 
 
 /*-----------------------------------*/
-/*-----------------------------------*/
+/*---TARJETA AGUINALDO--------------------------------*/
 /*-----------------------------------*/
 #tarj_sac{
 
     color: white; 
     background-image:url(https://cdn.pixabay.com/photo/2018/03/20/09/53/nature-3242686_1280.jpg);
     padding: 7%;
+    font-family: 'Inclusive Sans', sans-serif;
     
   
   }
@@ -272,13 +277,14 @@ video {
 /*-----------------------------------*/
 
 /*-----------------------------------*/
-/*-----------------------------------*/
+/*-----FOOTER------------------------------*/
 /*-----------------------------------*/
 #footer{
     
     background-color: #082b53;
     color: white;
     padding: 60px;
+    font-family: 'Inclusive Sans', sans-serif;
 
 }
 
@@ -293,7 +299,7 @@ video {
 #img_footer{
 
     margin-top: 50px;
-    
+
     :hover{
         scale: 110%;
         opacity: 50%;
