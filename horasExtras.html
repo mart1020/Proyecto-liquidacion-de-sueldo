@@ -83,19 +83,19 @@
   
             <div class="mb-3 row">
              
-              <label for="number" class="col-sm-6 col-form-label">Ingrese su Salario Neto $ </label>
+              <label for="SalarioNeto"  class="col-sm-6 col-form-label">Ingrese su Salario Neto $ </label>
             
               <div class="col-sm-5">
                 <input type="number" class="form-control" id="SalarioNeto">
               </div>
   
-              <label for="number" class="col-sm-6 col-form-label">¿Cuantas horas trabaja por dia?</label>
+              <label for="CantidadHorasAlDia" class="col-sm-6 col-form-label" >¿Cuantas horas trabaja por dia?</label>
               
               <div class="col-sm-4">
                 <input type="number" class="form-control" id="CantidadHorasAlDia">
               </div>
   
-              <label for="number" class="col-sm-6 col-form-label">¿Cuantos días trabaja por semana?</label>
+              <label for="CantidadDiasPorSemana" class="col-sm-6 col-form-label" >¿Cuantos días trabaja por semana?</label>
               
               <div class="col-sm-4">
                 <input type="number" class="form-control" id="CantidadDiasPorSemana">
@@ -104,7 +104,8 @@
   
             <div class="container-fluid text-center" id="button_resultado_horasExtras">
   
-              <button type="button" onclick="" class="btn btn-success" >Calcular</button>
+              <button type="button" onclick="horasExtras()" class="btn btn-success" id="button_resultado_horasExtras">Calcular</button>
+
           </div>
   
   
@@ -112,7 +113,8 @@
   
           <div id="resultado_cobroPorHora">
             <div class="mb-3 row">
-              <label for="inputPassword" class="col-sm-4 col-form-label" id="total_hora">Por hora gana: $</label>
+
+              <label for="resultado_hora" class="col-sm-4 col-form-label" >Por hora gana: $</label>
               
               <div class="col-sm-8">
   
@@ -122,7 +124,7 @@
   
             </div>
             <div class="mb-3 row">
-              <label for="inputPassword" class="col-sm-4 col-form-label" id="total_horaextra50">Por hora extra 50%: $</label>
+              <label for="resultado_horaExtra50" class="col-sm-4 col-form-label" >Por hora extra 50%: $</label>
               <div class="col-sm-8">
   
                 <input type="text" class="form-control" id="resultado_horaExtra50" aria-describedby="basic-addon3 basic-addon4" readonly>
@@ -130,7 +132,7 @@
               </div>
             </div>
             <div class="mb-3 row">
-              <label for="inputPassword" class="col-sm-4 col-form-label" id="total_horaExtra100">Por hora extra 100%: $</label>
+              <label for="resultado_horaExtra100" class="col-sm-4 col-form-label" >Por hora extra 100%: $</label>
               <div class="col-sm-8">
   
                 <input type="text" class="form-control" id="resultado_horaExtra100" aria-describedby="basic-addon3 basic-addon4" readonly>
