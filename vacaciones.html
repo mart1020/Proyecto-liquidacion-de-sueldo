@@ -75,7 +75,7 @@
   
                   <div class="mb-3 row">
                   
-                    <label for="number" class="col-sm-6 col-form-label">Ingrese su Salario Neto $ </label>
+                    <label for="SalarioNeto" class="col-sm-6 col-form-label">Ingrese su Salario Neto $ </label>
                   
                     <div class="col-sm-5">
                       <input type="number" class="form-control" id="SalarioNeto">
@@ -84,7 +84,7 @@
                     <label for="number" class="col-sm-6 col-form-label">¿Cuantos dias de vacaciones tiene?</label>
                     
                     <div class="col-sm-4">
-                      <input type="number" class="form-control" id="CantidadHorasAlDia">
+                      <input type="number" class="form-control" id="CantidadDiasDeVacaciones">
                     </div>
   
                   </div>
@@ -93,7 +93,7 @@
   
                 <div class="text-center" id="button_resultado_horasExtras">
   
-                  <button type="button" onclick="" class="btn btn-success" >Calcular</button>
+                  <button type="button" onclick="Vacaciones()" class="btn btn-success" >Calcular</button>
                 </div>
   
                 <div id="resultado_cobroPorHora" >
@@ -102,7 +102,7 @@
                     
                     <div class="col-sm-4">
   
-                      <input type="text" class="form-control" id="resultado_hora" aria-describedby="basic-addon3 basic-addon4" readonly>
+                      <input type="text" class="form-control" id="resultado_vacaciones" aria-describedby="basic-addon3 basic-addon4" readonly>
   
                     </div>
   
