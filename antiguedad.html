@@ -80,7 +80,7 @@
   
                     <div class="col-sm-4 col-form-label">
                 
-                      <label for="number" >Ingrese su Salario Neto $ </label>
+                      <label for="SalarioNeto" >Ingrese su Salario Neto $ </label>
   
                     </div>
   
@@ -92,44 +92,34 @@
   
                     <div class="col-sm-6 col-form-label">
   
-                        <label for="number" >¿Cuantas años de antiguedad tiene?</label>
+                        <label for="AnosDeAntig" >¿Cuantas años de antiguedad tiene?</label>
   
                     </div>
   
                   <div class="col-sm-5">
   
-                        <input type="number" class="form-control" id="CantidadHorasAlDia">
+                        <input type="number" class="form-control" id="AnosDeAntig">
   
                   </div>
   
                   <div class="row">
   
-                      <label for="select" class="col-sm-7 col-form-label">¿Su empleador lo informo con anticipacion?</label>
+                      <label for="" class="col-sm-7 col-form-label">¿Su empleador lo informo con anticipacion?</label>
                       
-                      <select class="col-sm-1" name="lenguajes" id="lang">
+                      <select class="col-sm-1" name="lenguajes" id="empleador">
   
-                        <option value="si">Si</option>
-                        <option value="no">No</option>
+                        <option value="true">Si</option>
+                        <option value="false">No</option>
   
                       </select> 
   
                 </div>
   
-                <div class="row">
-  
-                  <div class="col-sm-5 col-form-label">
-                    <label for="number" >¿Con cuanto tiempo de anticipacion?</label>
-                  </div>  
-                  
-                  <div class="col-sm-3">
-                    <input type="number" class="form-control" id="CantidadHorasAlDia">
-                  </div>
-  
-                </div>
+
   
                 <div class="container-fluid text-center" id="button_resultado_antiguedad">
   
-                  <button type="button" onclick="" class="btn btn-success" >Calcular</button>
+                  <button type="button" onclick="Antiguedad()" class="btn btn-success" >Calcular</button>
               </div>
   
   
@@ -137,11 +127,11 @@
   
               <div id="resultado_antiguedad">
                 <div class="mb-3 row">
-                  <label for="inputPassword" class="col-sm-4 col-form-label" id="total_hora">Usted cobraría: $</label>
+                  <label for="resultado_antig" class="col-sm-4 col-form-label" id="total_hora">Usted cobraría: $</label>
                   
                   <div class="col-sm-8">
   
-                    <input type="text" class="form-control" id="resultado_hora" aria-describedby="basic-addon3 basic-addon4" readonly>
+                    <input type="text" class="form-control" id="resultado_antig" aria-describedby="basic-addon3 basic-addon4" readonly>
   
                   </div>
   

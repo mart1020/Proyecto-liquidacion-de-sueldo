@@ -86,3 +86,35 @@ function Sac(){
 
 
 }
+
+function Antiguedad(){
+
+    let MejorSalarioBruto = parseFloat(document.getElementById("SalarioNeto").value);
+
+    let AnosDeAntig = parseFloat(document.getElementById("AnosDeAntig").value);
+
+    let empleador = document.getElementById("empleador").value;
+
+
+    Cobro = MejorSalarioBruto * AnosDeAntig;
+
+    if (empleador == false) {
+
+        if (AnosDeAntig < 5){
+
+            Cobro = MejorSalario * 2;
+
+        } else{ 
+
+            Cobro = MejorSalario * 3;
+        }
+
+        
+        
+    }
+
+    let resultado_antig= document.getElementById("resultado_antig");
+
+    resultado_antig.value = Cobro.toFixed(2);
+
+}
